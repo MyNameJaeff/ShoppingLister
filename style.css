@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffcf2;
+    color: #432000;
+    user-select: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 5% auto;
+}
+
+input {
+    color: #432000;
+    background-color: #ccc5b9;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+#add-button {
+    color: #FDFDFD;
+    background-color: #AC485A;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+}
+#add-button:hover, #remLocal-button:hover{
+    background-color: #432000;
+}
+#remLocal-button{
+    position: absolute;
+    width:min-content;
+    color: #FDFDFD;
+    background-color: #AC485A;
+    border: 0;
+    padding: 5px 10px;
+    border-radius: 8px;
+    margin-top: -5px;
+}
+li:hover{
+    background-color: #FFECC7;
+}
+button:hover, li:hover{
+    cursor:pointer
+}
+ul{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+li{
+    background-color: #FFFDF8;
+    padding: 10px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    flex-grow: 1;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+}
